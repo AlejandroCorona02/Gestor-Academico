@@ -7,8 +7,8 @@ class Ventana(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Ejemplo QStackedWidget")
-        self.resize(500, 300)
+        self.setWindowTitle("Ejemplo QStackedWidget") #Coloca nombre a la ventana
+        self.resize(500, 300) # Coloca el tamaño fijo a una ventana
 
         # Contenedor de páginas
         self.stack = QStackedWidget()
